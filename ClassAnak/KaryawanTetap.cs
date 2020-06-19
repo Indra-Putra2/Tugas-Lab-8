@@ -19,7 +19,6 @@ namespace TugasPemrograman11.Employee
         {
             int Gaji;
             Gaji = GajiBulanan;
-            //Console.WriteLine("NIK : {0} Nama : {1} Gaji Bulanan : {2}", NIK, Nama, GajiBulanan);
             return Gaji;
         }
     }
