@@ -6,20 +6,14 @@ namespace TugasPemrograman11.Employee
 {
     public class KaryawanHarian : Karyawan
     {
-        public int UpahPerJam { get; set; }
-        public int JumlahJamKerja { get; set; }
-
-        public KaryawanHarian(String nik = "No Nik", string nama = "No Name", int upahperjam = 0, int jumlahjamkerja = 0)
+        public double UpahPerJam { get; set; }
+        public double JumlahJamKerja { get; set; }
+        
+        public override double Gaji()
         {
-            this.UpahPerJam = upahperjam;
-            this.JumlahJamKerja = JumlahJamKerja;
-        }
-
-        public override int Gaji()
-        {
-            int Gaji;
-            Gaji = UpahPerJam * JumlahJamKerja;
-            return Gaji;
+            double gaji;
+            gaji = UpahPerJam * JumlahJamKerja;
+            return gaji;
         }
     }
 }

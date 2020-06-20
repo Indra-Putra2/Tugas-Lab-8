@@ -10,6 +10,8 @@ namespace LabExerciseWeek11
 	{
 		static void Main(string[] args)
 		{
+			Console.Title = "Tugas Lab 8 (Pertemuan 11) - Polymorphsim, Abstraction & Collection";
+
 			//making objects for all employees
 			KaryawanTetap karyawanTetap = new KaryawanTetap();
 			karyawanTetap.NIK = "20.11.324";
